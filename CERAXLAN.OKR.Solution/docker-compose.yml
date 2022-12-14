@@ -35,7 +35,7 @@ services:
       context: .
       dockerfile: CERAXLAN.OKR.ApiGateway/Dockerfile
     ports:
-      - 8011:80
+      - 8015:80
     networks:
       - backend
       - frontend
@@ -47,6 +47,6 @@ services:
       context: .
       dockerfile: CERAXLAN.OKR.BlazorWebUI/Dockerfile
     ports:
-      - 8012:80
+      - 8016:80
     networks:
       - frontend

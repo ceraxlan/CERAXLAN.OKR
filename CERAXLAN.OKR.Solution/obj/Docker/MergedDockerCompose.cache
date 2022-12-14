@@ -17,7 +17,7 @@ services:
       protocol: tcp
     - mode: ingress
       target: 80
-      published: "8011"
+      published: "8015"
       protocol: tcp
   ceraxlan.okr.blazorwebui:
     build:
@@ -35,7 +35,7 @@ services:
       protocol: tcp
     - mode: ingress
       target: 80
-      published: "8012"
+      published: "8016"
       protocol: tcp
   ceraxlan.okr.productapi:
     build:

@@ -13,7 +13,6 @@ services:
     ports:
       - "80"
 
-
   ceraxlan.okr.blazorwebui:
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
