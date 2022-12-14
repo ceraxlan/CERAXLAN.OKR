@@ -1,0 +1,52 @@
+version: '3.4'
+
+networks:
+  backend:
+  frontend:
+
+services:
+  ceraxlan.okr.productdb:
+    container_name: ceraxlan-okr-product-db
+    image: mysql:8.0.29-oracle
+    environment:
+     - MYSQL_ROOT_PASSWORD=password@12345#
+    ports:
+     - 18013:3306
+    networks:
+     - backend
+ 
+  ceraxlan.okr.productapi:
+    container_name: ceraxlan-okr-product-api
+    image: ${DOCKER_REGISTRY-}ceraxlan_okr_productapi
+    build:
+      context: .
+      dockerfile: CERAXLAN.OKR.ProductApi/Dockerfile
+    networks:
+      - backend
+    environment:
+      - DB_HOST=ceraxlan.okr.productdb
+      - DB_NAME=ceraxlanokrproductdb
+      - DB_ROOT_PASSWORD=password@12345#
+
+  ceraxlan.okr.apigateway:
+    container_name: ceraxlan-okr-api-gateway
+    image: ${DOCKER_REGISTRY-}ceraxlan_okr_apigateway
+    build:
+      context: .
+      dockerfile: CERAXLAN.OKR.ApiGateway/Dockerfile
+    ports:
+      - 8011:80
+    networks:
+      - backend
+      - frontend
+
+  ceraxlan.okr.blazorwebui:
+    container_name: ceraxlan-okr-blazor-web-ui
+    image: ${DOCKER_REGISTRY-}ceraxlan_okr_blazorwebui
+    build:
+      context: .
+      dockerfile: CERAXLAN.OKR.BlazorWebUI/Dockerfile
+    ports:
+      - 8012:80
+    networks:
+      - frontend
