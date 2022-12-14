@@ -12,6 +12,22 @@
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.17.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
     <PackageReference Include="MySql.EntityFrameworkCore" Version="6.0.1" />
+	<PackageReference Include="AutoMapper" Version="12.0.0" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.0" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.4.0" />
+    <PackageReference Include="MediatR" Version="10.0.1" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="10.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Application\Features\Products\Commands\UpdateProduct\" />
+    <Folder Include="Application\Features\Products\Commands\DeleteProduct\" />
+    <Folder Include="Application\Features\Products\Constants\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CorePackages\CERAXLAN.Core.Application\CERAXLAN.Core.Application.csproj" />
+    <ProjectReference Include="..\CorePackages\CERAXLAN.Core.Persistence\CERAXLAN.Core.Persistence.csproj" />
   </ItemGroup>
 
 </Project>

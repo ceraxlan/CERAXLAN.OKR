@@ -1,0 +1,12 @@
+C:\Users\cerax\Documents\GitHub\CERAXLAN.OKR\CERAXLAN.OKR.Solution\CorePackages\CERAXLAN.Core.CrossCuttingConcerns\bin\Debug\net6.0\CERAXLAN.Core.CrossCuttingConcerns.deps.json
+C:\Users\cerax\Documents\GitHub\CERAXLAN.OKR\CERAXLAN.OKR.Solution\CorePackages\CERAXLAN.Core.CrossCuttingConcerns\bin\Debug\net6.0\CERAXLAN.Core.CrossCuttingConcerns.dll
+C:\Users\cerax\Documents\GitHub\CERAXLAN.OKR\CERAXLAN.OKR.Solution\CorePackages\CERAXLAN.Core.CrossCuttingConcerns\bin\Debug\net6.0\CERAXLAN.Core.CrossCuttingConcerns.pdb
+C:\Users\cerax\Documents\GitHub\CERAXLAN.OKR\CERAXLAN.OKR.Solution\CorePackages\CERAXLAN.Core.CrossCuttingConcerns\obj\Debug\net6.0\CERAXLAN.Core.CrossCuttingConcerns.csproj.AssemblyReference.cache
+C:\Users\cerax\Documents\GitHub\CERAXLAN.OKR\CERAXLAN.OKR.Solution\CorePackages\CERAXLAN.Core.CrossCuttingConcerns\obj\Debug\net6.0\CERAXLAN.Core.CrossCuttingConcerns.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cerax\Documents\GitHub\CERAXLAN.OKR\CERAXLAN.OKR.Solution\CorePackages\CERAXLAN.Core.CrossCuttingConcerns\obj\Debug\net6.0\CERAXLAN.Core.CrossCuttingConcerns.AssemblyInfoInputs.cache
+C:\Users\cerax\Documents\GitHub\CERAXLAN.OKR\CERAXLAN.OKR.Solution\CorePackages\CERAXLAN.Core.CrossCuttingConcerns\obj\Debug\net6.0\CERAXLAN.Core.CrossCuttingConcerns.AssemblyInfo.cs
+C:\Users\cerax\Documents\GitHub\CERAXLAN.OKR\CERAXLAN.OKR.Solution\CorePackages\CERAXLAN.Core.CrossCuttingConcerns\obj\Debug\net6.0\CERAXLAN.Core.CrossCuttingConcerns.csproj.CoreCompileInputs.cache
+C:\Users\cerax\Documents\GitHub\CERAXLAN.OKR\CERAXLAN.OKR.Solution\CorePackages\CERAXLAN.Core.CrossCuttingConcerns\obj\Debug\net6.0\CERAXLAN.Core.CrossCuttingConcerns.dll
+C:\Users\cerax\Documents\GitHub\CERAXLAN.OKR\CERAXLAN.OKR.Solution\CorePackages\CERAXLAN.Core.CrossCuttingConcerns\obj\Debug\net6.0\refint\CERAXLAN.Core.CrossCuttingConcerns.dll
+C:\Users\cerax\Documents\GitHub\CERAXLAN.OKR\CERAXLAN.OKR.Solution\CorePackages\CERAXLAN.Core.CrossCuttingConcerns\obj\Debug\net6.0\CERAXLAN.Core.CrossCuttingConcerns.pdb
+C:\Users\cerax\Documents\GitHub\CERAXLAN.OKR\CERAXLAN.OKR.Solution\CorePackages\CERAXLAN.Core.CrossCuttingConcerns\obj\Debug\net6.0\ref\CERAXLAN.Core.CrossCuttingConcerns.dll

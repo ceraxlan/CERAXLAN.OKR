@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\CERAXLAN.OKR.ApiGateway.props" />
+</Project>

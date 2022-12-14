@@ -10,8 +10,7 @@
             <table class="table table-striped">
                 <thead>
                     <tr>
-                        <td>Name</td>
-                        <td>Code</td>
+                        <td>Name</td>                       
                         <td>Price</td>
                         <td></td>
                         <td></td>
@@ -19,15 +18,14 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td><input class="form-control" @bind="newProduct.ProductName" placeholder="Name" /></td>
-                        <td><input class="form-control" @bind="newProduct.ProductCode" placeholder="Code" /></td>
-                        <td><input class="form-control" @bind="newProduct.ProductPrice" placeholder="Price" /></td>
+                        <td><input class="form-control" @bind="newProduct.Name" placeholder="Name" /></td>                       
+                        <td><input class="form-control" @bind="newProduct.Price" placeholder="Price" /></td>
                         <td class="pt-3"><a @onclick="SaveProduct" href="javascript:void(0)"><i class="oi oi-thumb-up"></i></a></td>
                         <td></td>
                     </tr>
-                    @if (products != null && products.Count != 0)
+                    @if (dto.Items != null && dto.Items.Count != 0)
                     {
-                        foreach (var product in products)
+                        foreach (var product in dto.Items)
                         {
                             <ProductRecord 
                                 Product="product"
@@ -48,7 +46,7 @@
 </div>
 
 @code {
-    private List<ProductViewModel> products;
+    private ProductListModel dto = new ProductListModel();
     private ProductViewModel newProduct = new ProductViewModel();
 
     protected override async Task OnInitializedAsync()
@@ -59,7 +57,7 @@
 
     private async Task FetchProductList()
     {
-        products = await httpClient.GetFromJsonAsync<List<ProductViewModel>>("/api/Product");
+        dto = await httpClient.GetFromJsonAsync<ProductListModel>("/api/Product");
     }
 
     private async Task SaveProduct()
