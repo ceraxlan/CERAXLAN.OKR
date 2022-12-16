@@ -1,9 +1,7 @@
 ﻿namespace CERAXLAN.OKR.ProductApi.Application.Features.Products.Dtos
 {
-    public class ProductListDto
+    public class ProductListDto : ProductBaseDto
     {
-        public int Id { get; set; }
-        public string Name { get; set; }
         public decimal Price { get; set; }
     }
 }

@@ -19,5 +19,10 @@ namespace CERAXLAN.OKR.ProductApi.Application.Features.Products.Rules
             IPaginate<Product> result = await _productRepository.GetListAsync(b => b.Name == name);
             if (result.Items.Any()) throw new BusinessException("Product name exists.");
         }
+
+        internal void ProductShouldExistWhenRequested(Product? product)
+        {
+            if (product == null) throw new BusinessException("Requested Product does not exist.");
+        }
     }
 }

@@ -20,8 +20,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Application\Features\Products\Commands\UpdateProduct\" />
-    <Folder Include="Application\Features\Products\Commands\DeleteProduct\" />
     <Folder Include="Application\Features\Products\Constants\" />
   </ItemGroup>
 
