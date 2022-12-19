@@ -3,7 +3,6 @@ C:\Users\cerax\Documents\GitHub\CERAXLAN.OKR\CERAXLAN.OKR.Solution\CERAXLAN.OKR.
 C:\Users\cerax\Documents\GitHub\CERAXLAN.OKR\CERAXLAN.OKR.Solution\CERAXLAN.OKR.ProductApi\obj\Debug\net6.0\CERAXLAN.OKR.ProductApi.AssemblyInfoInputs.cache
 C:\Users\cerax\Documents\GitHub\CERAXLAN.OKR\CERAXLAN.OKR.Solution\CERAXLAN.OKR.ProductApi\obj\Debug\net6.0\CERAXLAN.OKR.ProductApi.AssemblyInfo.cs
 C:\Users\cerax\Documents\GitHub\CERAXLAN.OKR\CERAXLAN.OKR.Solution\CERAXLAN.OKR.ProductApi\obj\Debug\net6.0\CERAXLAN.OKR.ProductApi.csproj.CoreCompileInputs.cache
-C:\Users\cerax\Documents\GitHub\CERAXLAN.OKR\CERAXLAN.OKR.Solution\CERAXLAN.OKR.ProductApi\obj\Debug\net6.0\CERAXLAN.OKR.ProductApi.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\cerax\Documents\GitHub\CERAXLAN.OKR\CERAXLAN.OKR.Solution\CERAXLAN.OKR.ProductApi\obj\Debug\net6.0\CERAXLAN.OKR.ProductApi.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\cerax\Documents\GitHub\CERAXLAN.OKR\CERAXLAN.OKR.Solution\CERAXLAN.OKR.ProductApi\bin\Debug\net6.0\appsettings.Development.json
 C:\Users\cerax\Documents\GitHub\CERAXLAN.OKR\CERAXLAN.OKR.Solution\CERAXLAN.OKR.ProductApi\bin\Debug\net6.0\appsettings.json
@@ -24,6 +23,7 @@ C:\Users\cerax\Documents\GitHub\CERAXLAN.OKR\CERAXLAN.OKR.Solution\CERAXLAN.OKR.
 C:\Users\cerax\Documents\GitHub\CERAXLAN.OKR\CERAXLAN.OKR.Solution\CERAXLAN.OKR.ProductApi\bin\Debug\net6.0\MediatR.dll
 C:\Users\cerax\Documents\GitHub\CERAXLAN.OKR\CERAXLAN.OKR.Solution\CERAXLAN.OKR.ProductApi\bin\Debug\net6.0\MediatR.Contracts.dll
 C:\Users\cerax\Documents\GitHub\CERAXLAN.OKR\CERAXLAN.OKR.Solution\CERAXLAN.OKR.ProductApi\bin\Debug\net6.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\cerax\Documents\GitHub\CERAXLAN.OKR\CERAXLAN.OKR.Solution\CERAXLAN.OKR.ProductApi\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
 C:\Users\cerax\Documents\GitHub\CERAXLAN.OKR\CERAXLAN.OKR.Solution\CERAXLAN.OKR.ProductApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
 C:\Users\cerax\Documents\GitHub\CERAXLAN.OKR\CERAXLAN.OKR.Solution\CERAXLAN.OKR.ProductApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
 C:\Users\cerax\Documents\GitHub\CERAXLAN.OKR\CERAXLAN.OKR.Solution\CERAXLAN.OKR.ProductApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
@@ -37,6 +37,7 @@ C:\Users\cerax\Documents\GitHub\CERAXLAN.OKR\CERAXLAN.OKR.Solution\CERAXLAN.OKR.
 C:\Users\cerax\Documents\GitHub\CERAXLAN.OKR\CERAXLAN.OKR.Solution\CERAXLAN.OKR.ProductApi\bin\Debug\net6.0\Ubiety.Dns.Core.dll
 C:\Users\cerax\Documents\GitHub\CERAXLAN.OKR\CERAXLAN.OKR.Solution\CERAXLAN.OKR.ProductApi\bin\Debug\net6.0\ZstdNet.dll
 C:\Users\cerax\Documents\GitHub\CERAXLAN.OKR\CERAXLAN.OKR.Solution\CERAXLAN.OKR.ProductApi\bin\Debug\net6.0\MySql.EntityFrameworkCore.dll
+C:\Users\cerax\Documents\GitHub\CERAXLAN.OKR\CERAXLAN.OKR.Solution\CERAXLAN.OKR.ProductApi\bin\Debug\net6.0\Newtonsoft.Json.dll
 C:\Users\cerax\Documents\GitHub\CERAXLAN.OKR\CERAXLAN.OKR.Solution\CERAXLAN.OKR.ProductApi\bin\Debug\net6.0\Otp.NET.dll
 C:\Users\cerax\Documents\GitHub\CERAXLAN.OKR\CERAXLAN.OKR.Solution\CERAXLAN.OKR.ProductApi\bin\Debug\net6.0\Serilog.dll
 C:\Users\cerax\Documents\GitHub\CERAXLAN.OKR\CERAXLAN.OKR.Solution\CERAXLAN.OKR.ProductApi\bin\Debug\net6.0\Serilog.Sinks.File.dll
@@ -63,6 +64,7 @@ C:\Users\cerax\Documents\GitHub\CERAXLAN.OKR\CERAXLAN.OKR.Solution\CERAXLAN.OKR.
 C:\Users\cerax\Documents\GitHub\CERAXLAN.OKR\CERAXLAN.OKR.Solution\CERAXLAN.OKR.ProductApi\bin\Debug\net6.0\CERAXLAN.Core.Persistence.pdb
 C:\Users\cerax\Documents\GitHub\CERAXLAN.OKR\CERAXLAN.OKR.Solution\CERAXLAN.OKR.ProductApi\bin\Debug\net6.0\CERAXLAN.Core.CrossCuttingConcerns.pdb
 C:\Users\cerax\Documents\GitHub\CERAXLAN.OKR\CERAXLAN.OKR.Solution\CERAXLAN.OKR.ProductApi\bin\Debug\net6.0\CERAXLAN.Core.Security.pdb
+C:\Users\cerax\Documents\GitHub\CERAXLAN.OKR\CERAXLAN.OKR.Solution\CERAXLAN.OKR.ProductApi\obj\Debug\net6.0\CERAXLAN.OKR.ProductApi.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\cerax\Documents\GitHub\CERAXLAN.OKR\CERAXLAN.OKR.Solution\CERAXLAN.OKR.ProductApi\obj\Debug\net6.0\staticwebassets\msbuild.CERAXLAN.OKR.ProductApi.Microsoft.AspNetCore.StaticWebAssets.props
 C:\Users\cerax\Documents\GitHub\CERAXLAN.OKR\CERAXLAN.OKR.Solution\CERAXLAN.OKR.ProductApi\obj\Debug\net6.0\staticwebassets\msbuild.build.CERAXLAN.OKR.ProductApi.props
 C:\Users\cerax\Documents\GitHub\CERAXLAN.OKR\CERAXLAN.OKR.Solution\CERAXLAN.OKR.ProductApi\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.CERAXLAN.OKR.ProductApi.props
@@ -77,5 +79,3 @@ C:\Users\cerax\Documents\GitHub\CERAXLAN.OKR\CERAXLAN.OKR.Solution\CERAXLAN.OKR.
 C:\Users\cerax\Documents\GitHub\CERAXLAN.OKR\CERAXLAN.OKR.Solution\CERAXLAN.OKR.ProductApi\obj\Debug\net6.0\CERAXLAN.OKR.ProductApi.pdb
 C:\Users\cerax\Documents\GitHub\CERAXLAN.OKR\CERAXLAN.OKR.Solution\CERAXLAN.OKR.ProductApi\obj\Debug\net6.0\CERAXLAN.OKR.ProductApi.genruntimeconfig.cache
 C:\Users\cerax\Documents\GitHub\CERAXLAN.OKR\CERAXLAN.OKR.Solution\CERAXLAN.OKR.ProductApi\obj\Debug\net6.0\ref\CERAXLAN.OKR.ProductApi.dll
-C:\Users\cerax\Documents\GitHub\CERAXLAN.OKR\CERAXLAN.OKR.Solution\CERAXLAN.OKR.ProductApi\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
-C:\Users\cerax\Documents\GitHub\CERAXLAN.OKR\CERAXLAN.OKR.Solution\CERAXLAN.OKR.ProductApi\bin\Debug\net6.0\Newtonsoft.Json.dll

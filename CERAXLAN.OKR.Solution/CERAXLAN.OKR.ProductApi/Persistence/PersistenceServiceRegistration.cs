@@ -7,7 +7,6 @@ namespace CERAXLAN.OKR.ProductApi.Persistence
     {
         public static IServiceCollection AddPersistenceServices(this IServiceCollection services, IConfiguration configuration)
         {
-            //services.AddDbContext<ProductContext>(options =>options.UseSqlServer(configuration.GetConnectionString("DefaultConnection")));
             services.AddScoped<IProductRepository, ProductRepository>();
 
             return services;

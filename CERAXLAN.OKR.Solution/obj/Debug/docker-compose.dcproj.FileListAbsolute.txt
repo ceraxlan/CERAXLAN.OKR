@@ -29,6 +29,7 @@ C:\Users\cerax\Documents\GitHub\CERAXLAN.OKR\CERAXLAN.OKR.Solution\bin\Debug\CER
 C:\Users\cerax\Documents\GitHub\CERAXLAN.OKR\CERAXLAN.OKR.Solution\bin\Debug\CERAXLAN.OKR.BlazorWebUI.exe
 C:\Users\cerax\Documents\GitHub\CERAXLAN.OKR\CERAXLAN.OKR.Solution\bin\Debug\Microsoft.EntityFrameworkCore.dll
 C:\Users\cerax\Documents\GitHub\CERAXLAN.OKR\CERAXLAN.OKR.Solution\bin\Debug\CERAXLAN.Core.Persistence.dll
+C:\Users\cerax\Documents\GitHub\CERAXLAN.OKR\CERAXLAN.OKR.Solution\bin\Debug\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Users\cerax\Documents\GitHub\CERAXLAN.OKR\CERAXLAN.OKR.Solution\bin\Debug\MediatR.dll
 C:\Users\cerax\Documents\GitHub\CERAXLAN.OKR\CERAXLAN.OKR.Solution\bin\Debug\CERAXLAN.Core.Application.dll
 C:\Users\cerax\Documents\GitHub\CERAXLAN.OKR\CERAXLAN.OKR.Solution\bin\Debug\MediatR.Contracts.dll
@@ -36,15 +37,15 @@ C:\Users\cerax\Documents\GitHub\CERAXLAN.OKR\CERAXLAN.OKR.Solution\bin\Debug\Aut
 C:\Users\cerax\Documents\GitHub\CERAXLAN.OKR\CERAXLAN.OKR.Solution\bin\Debug\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\cerax\Documents\GitHub\CERAXLAN.OKR\CERAXLAN.OKR.Solution\bin\Debug\MediatR.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\cerax\Documents\GitHub\CERAXLAN.OKR\CERAXLAN.OKR.Solution\bin\Debug\FluentValidation.DependencyInjectionExtensions.dll
-C:\Users\cerax\Documents\GitHub\CERAXLAN.OKR\CERAXLAN.OKR.Solution\bin\Debug\MySql.EntityFrameworkCore.dll
 C:\Users\cerax\Documents\GitHub\CERAXLAN.OKR\CERAXLAN.OKR.Solution\bin\Debug\CERAXLAN.Core.CrossCuttingConcerns.dll
+C:\Users\cerax\Documents\GitHub\CERAXLAN.OKR\CERAXLAN.OKR.Solution\bin\Debug\MySql.EntityFrameworkCore.dll
 C:\Users\cerax\Documents\GitHub\CERAXLAN.OKR\CERAXLAN.OKR.Solution\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.dll
 C:\Users\cerax\Documents\GitHub\CERAXLAN.OKR\CERAXLAN.OKR.Solution\bin\Debug\System.Linq.Dynamic.Core.dll
 C:\Users\cerax\Documents\GitHub\CERAXLAN.OKR\CERAXLAN.OKR.Solution\bin\Debug\CERAXLAN.Core.Security.dll
 C:\Users\cerax\Documents\GitHub\CERAXLAN.OKR\CERAXLAN.OKR.Solution\bin\Debug\Microsoft.IdentityModel.Tokens.dll
-C:\Users\cerax\Documents\GitHub\CERAXLAN.OKR\CERAXLAN.OKR.Solution\bin\Debug\MySql.Data.dll
 C:\Users\cerax\Documents\GitHub\CERAXLAN.OKR\CERAXLAN.OKR.Solution\bin\Debug\Serilog.dll
 C:\Users\cerax\Documents\GitHub\CERAXLAN.OKR\CERAXLAN.OKR.Solution\bin\Debug\Serilog.Sinks.File.dll
+C:\Users\cerax\Documents\GitHub\CERAXLAN.OKR\CERAXLAN.OKR.Solution\bin\Debug\MySql.Data.dll
 C:\Users\cerax\Documents\GitHub\CERAXLAN.OKR\CERAXLAN.OKR.Solution\bin\Debug\Otp.NET.dll
 C:\Users\cerax\Documents\GitHub\CERAXLAN.OKR\CERAXLAN.OKR.Solution\bin\Debug\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\cerax\Documents\GitHub\CERAXLAN.OKR\CERAXLAN.OKR.Solution\bin\Debug\Microsoft.IdentityModel.Logging.dll
@@ -66,4 +67,3 @@ C:\Users\cerax\Documents\GitHub\CERAXLAN.OKR\CERAXLAN.OKR.Solution\bin\Debug\CER
 C:\Users\cerax\Documents\GitHub\CERAXLAN.OKR\CERAXLAN.OKR.Solution\bin\Debug\CERAXLAN.Core.CrossCuttingConcerns.pdb
 C:\Users\cerax\Documents\GitHub\CERAXLAN.OKR\CERAXLAN.OKR.Solution\bin\Debug\CERAXLAN.Core.Security.pdb
 C:\Users\cerax\Documents\GitHub\CERAXLAN.OKR\CERAXLAN.OKR.Solution\obj\Debug\docker-compose.dcproj.CopyComplete
-C:\Users\cerax\Documents\GitHub\CERAXLAN.OKR\CERAXLAN.OKR.Solution\bin\Debug\Microsoft.EntityFrameworkCore.Relational.dll
