@@ -11,8 +11,8 @@ Libraries:
 Gateway:
 -ApiGateway  
 Microservices:
--ProductApi
--UserApi 
+-ProductApi with MySQL
+-UserApi with MSSQL
 UI:
 -BlazorWebUI  
 
