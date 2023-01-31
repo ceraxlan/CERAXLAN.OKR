@@ -27,9 +27,9 @@ CRUD
 Validations
 Docker Containers
 BusinessRules
-MappingProfiles
-Pagination
-Exceptions
+MappingProfiles	
+Pagination	
+Exceptions	
 
 continuing to develop : 
 -User Auth ,
