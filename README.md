@@ -1,5 +1,5 @@
 # CERAXLAN.OKR
- Adesso OKR Micro Service Docker Example  Project
+OKR Micro Service Docker Example  Project
 
 
 Libraries:
