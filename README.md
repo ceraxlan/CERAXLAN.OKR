@@ -19,17 +19,17 @@ Microservices:
 UI:
 -BlazorWebUI  
 
--MediatR Command Queries CQRS,
--ApplicationServiceRegistration,
--PersistenceServiceRegistration,
--AutoMapper,
--CRUD ,
--Validations,
--Docker Containers,
--BusinessRules,
--MappingProfiles,
--Pagination,
--Exceptions,
+MediatR Command Queries CQRS,
+ApplicationServiceRegistration,
+PersistenceServiceRegistration,
+AutoMapper,
+CRUD ,
+Validations,
+Docker Containers,
+BusinessRules,
+MappingProfiles,
+Pagination,
+Exceptions,
 
 continuing to develop : 
 -User Auth ,
