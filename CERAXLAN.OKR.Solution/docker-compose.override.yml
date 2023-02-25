@@ -19,3 +19,9 @@ services:
     ports:
       - "80"
 
+  ceraxlan.okr.userapi:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "80"
+

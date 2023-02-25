@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\CERAXLAN.OKR.UserApi.props" />
+</Project>

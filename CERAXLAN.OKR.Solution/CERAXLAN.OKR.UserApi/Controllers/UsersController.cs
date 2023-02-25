@@ -31,9 +31,10 @@ namespace CERAXLAN.OKR.UserApi.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> GetList([FromQuery] PageRequest pageRequest)
+        public async Task<IActionResult> GetList()//([FromQuery] PageRequest pageRequest)
         {
-            GetListUserQuery getListUserQuery = new() { PageRequest = pageRequest };
+            PageRequest pageRequest = new PageRequest();
+            var getListUserQuery = new GetListUserQuery() { PageRequest = pageRequest };
             UserListModel result = await Mediator.Send(getListUserQuery);
             return Ok(result);
         }

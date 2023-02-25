@@ -28,6 +28,29 @@ services:
       - DB_NAME=ceraxlanokrproductdb
       - DB_ROOT_PASSWORD=password@12345#
 
+  ceraxlan.okr.userdb:
+    container_name: ceraxlan-okr-user-db
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    environment:
+      - ACCEPT_EULA=Y
+      - SA_PASSWORD=password@12345#
+    ports:
+     - 18011:1433
+    networks:
+     - backend
+
+  ceraxlan.okr.userapi:
+    image: ${DOCKER_REGISTRY-}ceraxlanokruserapi
+    build:
+      context: .
+      dockerfile: CERAXLAN.OKR.UserApi/Dockerfile
+    networks:
+      - backend
+    environment:
+      - DB_HOST=ceraxlan.okr.userdb
+      - DB_NAME=ceraxlanokruserdb
+      - DB_ROOT_PASSWORD=password@12345#
+
   ceraxlan.okr.apigateway:
     container_name: ceraxlan-okr-api-gateway
     image: ${DOCKER_REGISTRY-}ceraxlan_okr_apigateway
@@ -50,3 +73,5 @@ services:
       - 8016:80
     networks:
       - frontend
+
+  

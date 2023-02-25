@@ -40,6 +40,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdFJlY29yZC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/cerax/Documents/GitHub/CERAXLAN.OKR/CERAXLAN.OKR.Solution/CERAXLAN.OKR.BlazorWebUI/Pages/User.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cerax/Documents/GitHub/CERAXLAN.OKR/CERAXLAN.OKR.Solution/CERAXLAN.OKR.BlazorWebUI/Pages/UserRecord.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlclJlY29yZC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/cerax/Documents/GitHub/CERAXLAN.OKR/CERAXLAN.OKR.Solution/CERAXLAN.OKR.BlazorWebUI/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 

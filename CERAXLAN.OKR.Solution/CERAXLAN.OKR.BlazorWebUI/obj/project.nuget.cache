@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "KRdmrg9y4e4oFSlere7ye6+ap01bfTk83/avivIk65SXvpgr4MRrqYqZS2/xCUomZ4cTvE3nVz5YIDhfOsRTzw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\cerax\\Documents\\GitHub\\CERAXLAN.OKR\\CERAXLAN.OKR.Solution\\CERAXLAN.OKR.BlazorWebUI\\CERAXLAN.OKR.BlazorWebUI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\cerax\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.17.0\\microsoft.visualstudio.azure.containers.tools.targets.1.17.0.nupkg.sha512"
+  ],
+  "logs": []
+}

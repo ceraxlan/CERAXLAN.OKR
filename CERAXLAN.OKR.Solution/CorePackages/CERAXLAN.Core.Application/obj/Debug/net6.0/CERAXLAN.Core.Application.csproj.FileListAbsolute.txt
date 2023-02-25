@@ -1,8 +1,3 @@
-C:\Users\cerax\Documents\GitHub\CERAXLAN.OKR\CERAXLAN.OKR.Solution\CorePackages\CERAXLAN.Core.Application\obj\Debug\net6.0\CERAXLAN.Core.Application.csproj.AssemblyReference.cache
-C:\Users\cerax\Documents\GitHub\CERAXLAN.OKR\CERAXLAN.OKR.Solution\CorePackages\CERAXLAN.Core.Application\obj\Debug\net6.0\CERAXLAN.Core.Application.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\cerax\Documents\GitHub\CERAXLAN.OKR\CERAXLAN.OKR.Solution\CorePackages\CERAXLAN.Core.Application\obj\Debug\net6.0\CERAXLAN.Core.Application.AssemblyInfoInputs.cache
-C:\Users\cerax\Documents\GitHub\CERAXLAN.OKR\CERAXLAN.OKR.Solution\CorePackages\CERAXLAN.Core.Application\obj\Debug\net6.0\CERAXLAN.Core.Application.AssemblyInfo.cs
-C:\Users\cerax\Documents\GitHub\CERAXLAN.OKR\CERAXLAN.OKR.Solution\CorePackages\CERAXLAN.Core.Application\obj\Debug\net6.0\CERAXLAN.Core.Application.csproj.CoreCompileInputs.cache
 C:\Users\cerax\Documents\GitHub\CERAXLAN.OKR\CERAXLAN.OKR.Solution\CorePackages\CERAXLAN.Core.Application\bin\Debug\net6.0\CERAXLAN.Core.Application.deps.json
 C:\Users\cerax\Documents\GitHub\CERAXLAN.OKR\CERAXLAN.OKR.Solution\CorePackages\CERAXLAN.Core.Application\bin\Debug\net6.0\CERAXLAN.Core.Application.dll
 C:\Users\cerax\Documents\GitHub\CERAXLAN.OKR\CERAXLAN.OKR.Solution\CorePackages\CERAXLAN.Core.Application\bin\Debug\net6.0\CERAXLAN.Core.Application.pdb
@@ -12,6 +7,11 @@ C:\Users\cerax\Documents\GitHub\CERAXLAN.OKR\CERAXLAN.OKR.Solution\CorePackages\
 C:\Users\cerax\Documents\GitHub\CERAXLAN.OKR\CERAXLAN.OKR.Solution\CorePackages\CERAXLAN.Core.Application\bin\Debug\net6.0\CERAXLAN.Core.CrossCuttingConcerns.pdb
 C:\Users\cerax\Documents\GitHub\CERAXLAN.OKR\CERAXLAN.OKR.Solution\CorePackages\CERAXLAN.Core.Application\bin\Debug\net6.0\CERAXLAN.Core.Security.pdb
 C:\Users\cerax\Documents\GitHub\CERAXLAN.OKR\CERAXLAN.OKR.Solution\CorePackages\CERAXLAN.Core.Application\bin\Debug\net6.0\CERAXLAN.Core.Persistence.pdb
+C:\Users\cerax\Documents\GitHub\CERAXLAN.OKR\CERAXLAN.OKR.Solution\CorePackages\CERAXLAN.Core.Application\obj\Debug\net6.0\CERAXLAN.Core.Application.csproj.AssemblyReference.cache
+C:\Users\cerax\Documents\GitHub\CERAXLAN.OKR\CERAXLAN.OKR.Solution\CorePackages\CERAXLAN.Core.Application\obj\Debug\net6.0\CERAXLAN.Core.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cerax\Documents\GitHub\CERAXLAN.OKR\CERAXLAN.OKR.Solution\CorePackages\CERAXLAN.Core.Application\obj\Debug\net6.0\CERAXLAN.Core.Application.AssemblyInfoInputs.cache
+C:\Users\cerax\Documents\GitHub\CERAXLAN.OKR\CERAXLAN.OKR.Solution\CorePackages\CERAXLAN.Core.Application\obj\Debug\net6.0\CERAXLAN.Core.Application.AssemblyInfo.cs
+C:\Users\cerax\Documents\GitHub\CERAXLAN.OKR\CERAXLAN.OKR.Solution\CorePackages\CERAXLAN.Core.Application\obj\Debug\net6.0\CERAXLAN.Core.Application.csproj.CoreCompileInputs.cache
 C:\Users\cerax\Documents\GitHub\CERAXLAN.OKR\CERAXLAN.OKR.Solution\CorePackages\CERAXLAN.Core.Application\obj\Debug\net6.0\CERAXLAN.Core.Application.csproj.CopyComplete
 C:\Users\cerax\Documents\GitHub\CERAXLAN.OKR\CERAXLAN.OKR.Solution\CorePackages\CERAXLAN.Core.Application\obj\Debug\net6.0\CERAXLAN.Core.Application.dll
 C:\Users\cerax\Documents\GitHub\CERAXLAN.OKR\CERAXLAN.OKR.Solution\CorePackages\CERAXLAN.Core.Application\obj\Debug\net6.0\refint\CERAXLAN.Core.Application.dll

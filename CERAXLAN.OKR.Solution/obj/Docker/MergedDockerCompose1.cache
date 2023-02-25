@@ -1,0 +1,339 @@
+name: dockercompose11364418228760341367
+services:
+  ceraxlan.okr.apigateway:
+    build:
+      context: C:\Users\cerax\Documents\GitHub\CERAXLAN.OKR\CERAXLAN.OKR.Solution
+      dockerfile: CERAXLAN.OKR.ApiGateway/Dockerfile
+      labels:
+        com.microsoft.created-by: visual-studio
+        com.microsoft.visual-studio.project-name: CERAXLAN.OKR.ApiGateway
+      target: base
+    container_name: ceraxlan-okr-api-gateway
+    entrypoint:
+    - tail
+    - -f
+    - /dev/null
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS: "true"
+      DOTNET_USE_POLLING_FILE_WATCHER: "1"
+      NUGET_FALLBACK_PACKAGES: /root/.nuget/fallbackpackages
+    image: ceraxlan_okr_apigateway:dev
+    labels:
+      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /root/.nuget/packages
+        --additionalProbingPath /root/.nuget/fallbackpackages  "/app/bin/Debug/net6.0/CERAXLAN.OKR.ApiGateway.dll"'
+      com.microsoft.visualstudio.debuggee.killprogram: /bin/sh -c "if PID=$$(pidof
+        dotnet); then kill $$PID; fi"
+      com.microsoft.visualstudio.debuggee.program: dotnet
+      com.microsoft.visualstudio.debuggee.workingdirectory: /app
+    networks:
+      backend: null
+      frontend: null
+    ports:
+    - mode: ingress
+      target: 80
+      protocol: tcp
+    - mode: ingress
+      target: 80
+      published: "8015"
+      protocol: tcp
+    tty: true
+    volumes:
+    - type: bind
+      source: C:\Users\cerax\Documents\GitHub\CERAXLAN.OKR\CERAXLAN.OKR.Solution\CERAXLAN.OKR.ApiGateway
+      target: /app
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Users\cerax\Documents\GitHub\CERAXLAN.OKR\CERAXLAN.OKR.Solution
+      target: /src
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Users\cerax\vsdbg\vs2017u5
+      target: /remote_debugger
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Users\cerax\.nuget\packages\
+      target: /root/.nuget/packages
+      read_only: true
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages
+      target: /root/.nuget/fallbackpackages
+      read_only: true
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Users\cerax\AppData\Roaming/ASP.NET/Https
+      target: /root/.aspnet/https
+      read_only: true
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Users\cerax\AppData\Roaming/Microsoft/UserSecrets
+      target: /root/.microsoft/usersecrets
+      read_only: true
+      bind:
+        create_host_path: true
+  ceraxlan.okr.blazorwebui:
+    build:
+      context: C:\Users\cerax\Documents\GitHub\CERAXLAN.OKR\CERAXLAN.OKR.Solution
+      dockerfile: CERAXLAN.OKR.BlazorWebUI/Dockerfile
+      labels:
+        com.microsoft.created-by: visual-studio
+        com.microsoft.visual-studio.project-name: CERAXLAN.OKR.BlazorWebUI
+      target: base
+    container_name: ceraxlan-okr-blazor-web-ui
+    entrypoint:
+    - tail
+    - -f
+    - /dev/null
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS: "true"
+      DOTNET_USE_POLLING_FILE_WATCHER: "1"
+      NUGET_FALLBACK_PACKAGES: /root/.nuget/fallbackpackages
+    image: ceraxlan_okr_blazorwebui:dev
+    labels:
+      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /root/.nuget/packages
+        --additionalProbingPath /root/.nuget/fallbackpackages  "/app/bin/Debug/net6.0/CERAXLAN.OKR.BlazorWebUI.dll"'
+      com.microsoft.visualstudio.debuggee.killprogram: /bin/sh -c "if PID=$$(pidof
+        dotnet); then kill $$PID; fi"
+      com.microsoft.visualstudio.debuggee.program: dotnet
+      com.microsoft.visualstudio.debuggee.workingdirectory: /app
+    networks:
+      frontend: null
+    ports:
+    - mode: ingress
+      target: 80
+      protocol: tcp
+    - mode: ingress
+      target: 80
+      published: "8016"
+      protocol: tcp
+    tty: true
+    volumes:
+    - type: bind
+      source: C:\Users\cerax\Documents\GitHub\CERAXLAN.OKR\CERAXLAN.OKR.Solution\CERAXLAN.OKR.BlazorWebUI
+      target: /app
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Users\cerax\Documents\GitHub\CERAXLAN.OKR\CERAXLAN.OKR.Solution
+      target: /src
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Users\cerax\vsdbg\vs2017u5
+      target: /remote_debugger
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Users\cerax\.nuget\packages\
+      target: /root/.nuget/packages
+      read_only: true
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages
+      target: /root/.nuget/fallbackpackages
+      read_only: true
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Users\cerax\AppData\Roaming/ASP.NET/Https
+      target: /root/.aspnet/https
+      read_only: true
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Users\cerax\AppData\Roaming/Microsoft/UserSecrets
+      target: /root/.microsoft/usersecrets
+      read_only: true
+      bind:
+        create_host_path: true
+  ceraxlan.okr.productapi:
+    build:
+      context: C:\Users\cerax\Documents\GitHub\CERAXLAN.OKR\CERAXLAN.OKR.Solution
+      dockerfile: CERAXLAN.OKR.ProductApi/Dockerfile
+      labels:
+        com.microsoft.created-by: visual-studio
+        com.microsoft.visual-studio.project-name: CERAXLAN.OKR.ProductApi
+      target: base
+    container_name: ceraxlan-okr-product-api
+    entrypoint:
+    - tail
+    - -f
+    - /dev/null
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS: "true"
+      DB_HOST: ceraxlan.okr.productdb
+      DB_NAME: ceraxlanokrproductdb
+      DB_ROOT_PASSWORD: password@12345#
+      DOTNET_USE_POLLING_FILE_WATCHER: "1"
+      NUGET_FALLBACK_PACKAGES: /root/.nuget/fallbackpackages
+    image: ceraxlan_okr_productapi:dev
+    labels:
+      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /root/.nuget/packages
+        --additionalProbingPath /root/.nuget/fallbackpackages  "/app/bin/Debug/net6.0/CERAXLAN.OKR.ProductApi.dll"'
+      com.microsoft.visualstudio.debuggee.killprogram: /bin/sh -c "if PID=$$(pidof
+        dotnet); then kill $$PID; fi"
+      com.microsoft.visualstudio.debuggee.program: dotnet
+      com.microsoft.visualstudio.debuggee.workingdirectory: /app
+    networks:
+      backend: null
+    ports:
+    - mode: ingress
+      target: 80
+      protocol: tcp
+    tty: true
+    volumes:
+    - type: bind
+      source: C:\Users\cerax\Documents\GitHub\CERAXLAN.OKR\CERAXLAN.OKR.Solution\CERAXLAN.OKR.ProductApi
+      target: /app
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Users\cerax\Documents\GitHub\CERAXLAN.OKR\CERAXLAN.OKR.Solution
+      target: /src
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Users\cerax\vsdbg\vs2017u5
+      target: /remote_debugger
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Users\cerax\.nuget\packages\
+      target: /root/.nuget/packages
+      read_only: true
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages
+      target: /root/.nuget/fallbackpackages
+      read_only: true
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Users\cerax\AppData\Roaming/ASP.NET/Https
+      target: /root/.aspnet/https
+      read_only: true
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Users\cerax\AppData\Roaming/Microsoft/UserSecrets
+      target: /root/.microsoft/usersecrets
+      read_only: true
+      bind:
+        create_host_path: true
+  ceraxlan.okr.productdb:
+    container_name: ceraxlan-okr-product-db
+    environment:
+      MYSQL_ROOT_PASSWORD: password@12345#
+    image: mysql:8.0.29-oracle
+    networks:
+      backend: null
+    ports:
+    - mode: ingress
+      target: 3306
+      published: "18013"
+      protocol: tcp
+  ceraxlan.okr.userapi:
+    build:
+      context: C:\Users\cerax\Documents\GitHub\CERAXLAN.OKR\CERAXLAN.OKR.Solution
+      dockerfile: CERAXLAN.OKR.UserApi/Dockerfile
+      labels:
+        com.microsoft.created-by: visual-studio
+        com.microsoft.visual-studio.project-name: CERAXLAN.OKR.UserApi
+      target: base
+    container_name: CERAXLAN.OKR.UserApi
+    entrypoint:
+    - tail
+    - -f
+    - /dev/null
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS: "true"
+      DB_HOST: ceraxlan.okr.userdb
+      DB_NAME: ceraxlanokruserdb
+      DB_ROOT_PASSWORD: password@12345#
+      DOTNET_USE_POLLING_FILE_WATCHER: "1"
+      NUGET_FALLBACK_PACKAGES: /root/.nuget/fallbackpackages
+    image: ceraxlanokruserapi:dev
+    labels:
+      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /root/.nuget/packages
+        --additionalProbingPath /root/.nuget/fallbackpackages  "/app/bin/Debug/net6.0/CERAXLAN.OKR.UserApi.dll"'
+      com.microsoft.visualstudio.debuggee.killprogram: /bin/sh -c "if PID=$$(pidof
+        dotnet); then kill $$PID; fi"
+      com.microsoft.visualstudio.debuggee.program: dotnet
+      com.microsoft.visualstudio.debuggee.workingdirectory: /app
+    networks:
+      backend: null
+    ports:
+    - mode: ingress
+      target: 80
+      protocol: tcp
+    tty: true
+    volumes:
+    - type: bind
+      source: C:\Users\cerax\Documents\GitHub\CERAXLAN.OKR\CERAXLAN.OKR.Solution\CERAXLAN.OKR.UserApi
+      target: /app
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Users\cerax\Documents\GitHub\CERAXLAN.OKR\CERAXLAN.OKR.Solution
+      target: /src
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Users\cerax\vsdbg\vs2017u5
+      target: /remote_debugger
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Users\cerax\.nuget\packages\
+      target: /root/.nuget/packages
+      read_only: true
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages
+      target: /root/.nuget/fallbackpackages
+      read_only: true
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Users\cerax\AppData\Roaming/ASP.NET/Https
+      target: /root/.aspnet/https
+      read_only: true
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Users\cerax\AppData\Roaming/Microsoft/UserSecrets
+      target: /root/.microsoft/usersecrets
+      read_only: true
+      bind:
+        create_host_path: true
+  ceraxlan.okr.userdb:
+    container_name: ceraxlan-okr-user-db
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: password@12345#
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    networks:
+      backend: null
+    ports:
+    - mode: ingress
+      target: 1433
+      published: "18011"
+      protocol: tcp
+networks:
+  backend:
+    name: dockercompose11364418228760341367_backend
+  frontend:
+    name: dockercompose11364418228760341367_frontend

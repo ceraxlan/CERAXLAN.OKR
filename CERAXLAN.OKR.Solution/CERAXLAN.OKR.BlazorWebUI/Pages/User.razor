@@ -1,0 +1,81 @@
+﻿@using CERAXLAN.OKR.BlazorWebUI.Models
+@inject HttpClient httpClient
+@page "/user"
+
+<h3>User</h3>
+
+<div class="row">
+    <div class="col-12 mt-4">
+        <div class="table-responsive">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <td>FirstName</td>                       
+                        <td>LastName</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><input class="form-control" @bind="newUser.FirstName" placeholder="FirstName" /></td>
+                        <td><input class="form-control" @bind="newUser.LastName" placeholder="LastName" /></td>
+                        <td class="pt-3"><a @onclick="SaveUser" href="javascript:void(0)"><i class="oi oi-plus"></i></a></td>
+                        <td></td>
+                    </tr>
+                    @if (dto.Items != null && dto.Items.Count != 0)
+                    {
+                        foreach (var user in dto.Items)
+                        {
+                            <UserRecord 
+                                User="user"
+                                UpdateUser="UpdateUser"
+                                DeleteUser="DeleteUser"></UserRecord>
+                        }
+                    }
+                    else
+                    {
+                        <tr>
+                            <td class="text-center" colspan="5">No user records to display</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+@code {
+    private UserListModel dto = new UserListModel();
+    private UserViewModel newUser = new UserViewModel();
+
+    protected override async Task OnInitializedAsync()
+    {
+        await base.OnInitializedAsync();
+        await FetchUserList();
+    }
+
+    private async Task FetchUserList()
+    {
+        dto = await httpClient.GetFromJsonAsync<UserListModel>("/api/User");
+    }
+
+    private async Task SaveUser()
+    {
+        await httpClient.PostAsJsonAsync<UserViewModel>("/api/User", newUser);
+        await FetchUserList();
+        newUser = new UserViewModel();
+    }
+
+    private async Task UpdateUser(UserViewModel user)
+    {
+        await httpClient.PutAsJsonAsync<UserViewModel>("/api/User", user);
+        await FetchUserList();
+    }
+
+    private async Task DeleteUser(int userId)
+    {
+        var result = await httpClient.DeleteAsync($"/api/User/{userId}");
+        await FetchUserList();
+    }
+}

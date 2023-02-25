@@ -24,6 +24,31 @@
         }
       ],
       "DownstreamPathTemplate": "/api/Product/{productId}"
+    },
+    //User Web API
+    {
+      "UpstreamPathTemplate": "/api/User",
+      "UpstreamHttpMethod": [ "Get", "Post", "Put" ],
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "ceraxlan.okr.userapi",
+          "Port": 80
+        }
+      ],
+      "DownstreamPathTemplate": "/api/Users"
+    },
+    {
+      "UpstreamPathTemplate": "/api/User/{userId}",
+      "UpstreamHttpMethod": [ "Get", "Delete" ],
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "ceraxlan.okr.userapi",
+          "Port": 80
+        }
+      ],
+      "DownstreamPathTemplate": "/api/Users/{userId}"
     }
   ],
   "GlobalConfiguration": {
