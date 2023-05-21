@@ -1,7 +1,0 @@
-C:\Users\cerax\Documents\GitHub\CERAXLAN.OKR\CERAXLAN.OKR.Solution\CERAXLAN.OKR.BlazorWebUI\obj\Release\net6.0\PubTmp\Out\CERAXLAN.OKR.BlazorWebUI.exe
-C:\Users\cerax\Documents\GitHub\CERAXLAN.OKR\CERAXLAN.OKR.Solution\CERAXLAN.OKR.BlazorWebUI\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
-C:\Users\cerax\Documents\GitHub\CERAXLAN.OKR\CERAXLAN.OKR.Solution\CERAXLAN.OKR.BlazorWebUI\obj\Release\net6.0\PubTmp\Out\appsettings.json
-C:\Users\cerax\Documents\GitHub\CERAXLAN.OKR\CERAXLAN.OKR.Solution\CERAXLAN.OKR.BlazorWebUI\obj\Release\net6.0\PubTmp\Out\CERAXLAN.OKR.BlazorWebUI.dll
-C:\Users\cerax\Documents\GitHub\CERAXLAN.OKR\CERAXLAN.OKR.Solution\CERAXLAN.OKR.BlazorWebUI\obj\Release\net6.0\PubTmp\Out\CERAXLAN.OKR.BlazorWebUI.deps.json
-C:\Users\cerax\Documents\GitHub\CERAXLAN.OKR\CERAXLAN.OKR.Solution\CERAXLAN.OKR.BlazorWebUI\obj\Release\net6.0\PubTmp\Out\CERAXLAN.OKR.BlazorWebUI.runtimeconfig.json
-C:\Users\cerax\Documents\GitHub\CERAXLAN.OKR\CERAXLAN.OKR.Solution\CERAXLAN.OKR.BlazorWebUI\obj\Release\net6.0\PubTmp\Out\CERAXLAN.OKR.BlazorWebUI.pdb
